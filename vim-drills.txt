@@ -83,8 +83,8 @@ S     | |     |   |   | |
 # You can use A to go to the end of the line in insert more (same with I)
 ---> There is some text missing from th
      There is some text missing from this line.
----> There is also some text miss
-     There is also some text missing here.
+---> There is also some text missing here.
+     also some text missing here.
 
 ~~~~~~~~~~~~~~~~~~~~ Deleting part 2 ~~~~~~~~~~~~~~
 #w, e, and b can be use to move by word
