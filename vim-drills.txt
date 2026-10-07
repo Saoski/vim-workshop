@@ -1,4 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~ MAZES ~~~~~~~~~~~~~~~~~~~~~~~
+# Use h j l k to navigate the maze!
 .=================================================.
 |                                                 |
 |== ==. | ======= ====. .====== | ==. =========== |
@@ -66,3 +67,96 @@ S     | |     |   |   | |
 |== .== ==. | ==' '====== | ==| | '=. | | .== '=. |
 |   |     | |                 | |   |   | |     | E
 '==================================================
+# TIP: for general navigation, ctrl + f and ctrl + b
+#      are very helpful for scrolling through large files
+
+~~~~~~~~~~~~~~~~~~~~ Deleting ~~~~~~~~~~~~~~~~~~~~~
+# Use x to delete the extra characters
+---> The ccow jumpedd ovverr thhe mooon.
+
+~~~~~~~~~~~~~~~~~~~~ Inserting ~~~~~~~~~~~~~~~~~~~~
+# Use i to enter insert mode (ESC to return to normal mode)
+---> There is text misng this .
+---> There is some text missing from this line.
+
+~~~~~~~~~~~~~~~~~~~~ Appending ~~~~~~~~~~~~~~~~~~~~
+# You can use A to go to the end of the line in insert more (same with I)
+---> There is some text missing from th
+     There is some text missing from this line.
+---> There is also some text miss
+     There is also some text missing here.
+
+~~~~~~~~~~~~~~~~~~~~ Deleting part 2 ~~~~~~~~~~~~~~
+#w, e, and b can be use to move by word
+# Use dw to delete the extra words
+---> There are a some words fun that don't belong paper in this sentence.
+
+# Use 2dw to delete 2 words
+---> I really love DELETE THIS vim
+
+# $ moves to end of line, ^ moves to beginning of line
+# Use d$ to delete the extra text
+---> Somebody typed the end of this line twice. end of this line twice.
+
+~~~~~~~~~~~~~~~~~~~~ Line manipulation ~~~~~~~~~~~~
+# Use dd to delete the extra lines
+--->  (1)  Roses are red,
+--->  (2)  Mud is fun,
+--->  (3)  Violets are blue,
+--->  (4)  I have a car,
+--->  (5)  Clocks tell time,
+--->  (6)  Sugar is sweet
+--->  (7)  And so are you.
+
+# Use 2dd to delete pairs of lines
+--->  (1)  Roses are red,
+--->  (2)  Violets are blue,
+--->  (3)  I have a car,
+--->  (4)  Clocks tell time,
+--->  (5)  Sugar is sweet
+--->  (6)  And so are you.
+
+# After deleting, you can use p to paste the line (P will paste above)
+# Try to fix the poem
+--->  (1)  Mud is fun,
+--->  (2)  And so are you.
+--->  (3)  Violets are blue,
+--->  (4)  Roses are red,
+--->  (5)  Sugar is sweet
+--->  (6)  Clocks tell time,
+--->  (7)  I have a car,
+
+~~~~~~~~~~~ Visual mode ~~~~~~~~~~~~~~~~
+# Press v to enter visual mode
+# Selected text can be yanked or deleted
+---> Lorem ipsum dolor sit amet consectetur adipiscing elit consequat. 
+---> Delete THIS sentence cuz its bad. Laboris maxime occaecat voluptatum 
+---> velit in aliquip omnis aliqua harum corrupti laborum et. Est ut duis 
+---> in illum imperdiet dignissimos odio cupiditate magna occaecat minus.
+
+~~~~~~~~~~~ Visual row mode ~~~~~~~~~~~~
+# Try using ctrl-v to select rows
+# Use d to delete and p to paste
+# Try to fix the poem
+--->  (1)  Mud is fun,
+--->  (2)  And so are you.
+--->  (3)  Violets are blue,
+--->  (4)  Roses are red,
+--->  (5)  Sugar is sweet
+--->  (6)  Clocks tell time,
+--->  (7)  I have a car,
+
+~~~~~~~~~~~ Undo and Redo ~~~~~~~~~~~~~
+# Delete the extra characters using x
+# Use U to return the line to the state that it started
+# Use u to undo the most recent action
+# Use ctrl + r to redo what you use undid
+---> Fiix the errors oon thhis line and reeplace them witth undo.
+
+~~~~~~~~~~~ Undo and Redo ~~~~~~~~~~~~~
+# Use r{letter} to replace the letter on your cursor
+---> This lubw has a few wptfd that mrrf changing usfng the change operator.
+---> This line has a few words that need changing using the change operator.
+
+~~~~~~~~~~~ Change command ~~~~~~~~~~~~
+
