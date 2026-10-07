@@ -87,7 +87,7 @@ S     | |     |   |   | |
      also some text missing here.
 
 ~~~~~~~~~~~~~~~~~~~~ Deleting part 2 ~~~~~~~~~~~~~~
-#w, e, and b can be use to move by word
+# w, e, and b can be use to move by word
 # Use dw to delete the extra words
 ---> There are a some words fun that don't belong paper in this sentence.
 
