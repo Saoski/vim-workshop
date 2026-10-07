@@ -81,6 +81,7 @@ S     | |     |   |   | |
 
 ~~~~~~~~~~~~~~~~~~~~ Appending ~~~~~~~~~~~~~~~~~~~~
 # You can use A to go to the end of the line in insert more (same with I)
+# Fix the errors!
 ---> There is some text missing from th
      There is some text missing from this line.
 ---> There is also some text missing here.
@@ -159,4 +160,25 @@ S     | |     |   |   | |
 ---> This line has a few words that need changing using the change operator.
 
 ~~~~~~~~~~~ Change command ~~~~~~~~~~~~
+# The change comand is the same as the delete command, but it puts into insert mode
+---> This line has a few wptfd that mrrf changing usf the change operator.
+---> This line has a few words that need changing using the change operator.
+---> Change me please
 
+~~~~~~~~~~~~~~~ Search ~~~~~~~~~~~~~~~~
+# Use the "/" key to search for a word
+# Press enter to return to normal mode on that word
+--->  "errroor" is not the way to spell error;  errroor is an error.
+
+
+~~~~~~~~~~~~~~~ MACROS ~~~~~~~~~~~~~~~~
+# Get rid of the quotes cuz I don't like them
+{
+	"level":12,
+	"money":1515,
+	"BAC":0.31,
+	"items": [
+	    {"name": "Excalibur", "damage": 43},
+	    {"name": "healing potion", "damage": 0}
+	]
+}
