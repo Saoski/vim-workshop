@@ -173,13 +173,13 @@ S     | |     |   |   | |
 
 
 ~~~~~~~~~~~~~~~ MACROS ~~~~~~~~~~~~~~~~
-# Get rid of the quotes cuz I don't like them
+# Add quotes using a macro!!!
 {
-	"level":12,
-	"money":1515,
-	"BAC":0.31,
-	"items": [
-	    {"name": "Excalibur", "damage": 43},
-	    {"name": "healing potion", "damage": 0}
-	]
+    level:12,
+    money:1515,
+    BAC:0.31,
+    items: [
+        {name: Excalibur, damage: 43},
+        {name: healing potion, damage: 0}
+    ]
 }
